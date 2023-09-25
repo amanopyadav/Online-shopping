@@ -1,0 +1,25 @@
+@Service
+public class AdminService {
+    private final ProductRepository productRepository;
+    private final CustomerRepository customerRepository;
+
+    public interface ProductRepository extends JpaRepository<Product, Long> {
+    }
+
+    public interface CustomerRepository extends JpaRepository<Customer, Long> {
+    }
+
+}
+
+@Service
+public class CustomerService {
+    private final ProductRepository productRepository;
+    private final CustomerRepository customerRepository;
+
+    public interface ProductRepository extends JpaRepository<Product, Long> {
+    }
+
+    public interface CustomerRepository extends JpaRepository<Customer, Long> {
+    }
+
+}

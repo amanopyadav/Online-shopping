@@ -1,0 +1,11 @@
+@Controller
+@RequestMapping("/admin")
+public class AdminController {
+    // Implement methods for adding products, reading product list, adding/removing customers
+}
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+    // Implement methods for adding products to cart, viewing cart, displaying bill, paying bill, adding balance
+}
